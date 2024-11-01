@@ -11,8 +11,8 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
-          Quasar App
+        <q-toolbar-title class="text-h4 text-weight-bold">
+          Knjižnica
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -55,46 +55,46 @@ defineOptions({
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Početna',
+    caption: 'Glavna stranica',
+    icon: 'home',
+    link: '/'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Popis svih knjiga',
+    caption: 'Sve knjige',
+    icon: 'book',
+    link: '/popisKnjiga'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Pretraživanje',
+    caption: 'Traži knjige',
+    icon: 'search',
+    link: '/pretrazivanje'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'O nama',
+    caption: 'Informacije o knjižnici',
+    icon: 'info',
+    link: '/o_nama'
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    title: 'Lokacija',
+    caption: 'Gdje se nalazimo',
+    icon: 'location_on',
+    link: '/lokacija'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    title: 'Login',
+    caption: 'Prijava',
+    icon: 'login',
+    link: '/login'
   },
   {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    title: 'Registracija',
+    caption: 'Kreirajte račun',
+    icon: 'person_add',
+    link: '/registracija'
   }
 ]
 
