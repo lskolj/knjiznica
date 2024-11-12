@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Navigacija
         </q-item-label>
 
         <EssentialLink
