@@ -104,3 +104,7 @@ function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value
 }
 </script>
+
+<style lang="scss">
+@import 'css/quasar.variables.scss';
+</style>

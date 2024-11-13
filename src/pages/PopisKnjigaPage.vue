@@ -21,9 +21,9 @@ export default {
   data () {
     return {
       books: [
-        { id: 1, title: 'Knjiga 1', autor: 'Autor 1', year: 2020 },
-        { id: 2, title: 'Knjiga 2', autor: 'Autor 2', year: 2021 },
-        { id: 3, title: 'Knjiga 3', autor: 'Autor 3', year: 2022 }
+        { id: 1, title: 'Dead Souls', autor: 'Nikolai Gogol', year: 1842 },
+        { id: 2, title: 'Anna Karenina', autor: 'Leo Tolstoy', year: 1877 },
+        { id: 3, title: 'The Castle', autor: 'Franz Kafka', year: 1926 }
       ],
       columns: [
         { name: 'title', label: ' Naslov ', align: 'left', field: row => row.title },
